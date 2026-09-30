@@ -8,7 +8,7 @@ const obtenerTodos = (req, res) => {
 
     //Validacion
     const productos = service.obtenerTodos();
-    res.json();
+    res.json(productos);
 }
 
 module.exports = {obtenerTodos};

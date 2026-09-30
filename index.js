@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.json({ mensaje: 'Servidor funcionando ✅' });
 });
 
-app.use('/api/productos', requiere ('./routes/productosRoutes'));
+app.use('/api/productos', require ('./routes/productosRoutes'));
 
 
 // Ruta de productos — datos hardcodeados
